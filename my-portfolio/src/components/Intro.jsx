@@ -2,15 +2,15 @@ import React from "react";
 
 const Intro = () => {
     return(
-        <div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4"></hr>
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
-</div>
+  <div className="jumbotron">
+    <p className="display-4">Meet Jemal</p>
+    <p className="lead"></p>
+    <hr className="my-4"></hr>
+    <p>Jemal is a  programmer who is familier in a variety of programming languages, including Python, C++, JavaScript, Java, and HTML.</p>
+    <p className="lead">
+      <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
     )
 }
 
